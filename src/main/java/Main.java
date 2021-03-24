@@ -8,12 +8,12 @@ public class Main {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Введите количество потоков:");
+        System.out.println("Введите желаемое количество котопотоков:");
         try {
             threadsNumber = Integer.parseInt(reader.readLine());
         }catch (Exception e){}
 
-        System.out.println("Введите количество котов в каждом потоке:");
+        System.out.println("Введите желаемое количество котов в каждом котопотоке:");
         try {
             catQuantity = Integer.parseInt(reader.readLine());
         }catch (Exception e){}
