@@ -1,12 +1,9 @@
 public class CatFactory implements Runnable{
    private int COUNT;
    private int NUMBER;
-    {
-        COUNT = 10;
-    }
-
-    public CatFactory(int i) {
-        NUMBER = i;
+    public CatFactory(int CAT_QUANTITY, int THREAD_NUMBER) {
+        COUNT = CAT_QUANTITY;
+        NUMBER = THREAD_NUMBER;
     }
 
     @Override
