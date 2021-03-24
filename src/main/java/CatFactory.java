@@ -1,4 +1,4 @@
-public class CatFactory extends Thread{
+public class CatFactory implements Runnable{
    private int COUNT;
     {
         COUNT = 10;
