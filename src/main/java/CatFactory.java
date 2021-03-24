@@ -13,7 +13,7 @@ public class CatFactory implements Runnable{
     public void run() {
         int i = 0;
         while (i < COUNT){
-            new Cat(NUMBER +"." + i);
+            new Cat(NUMBER +"." + (i+1));
             i++;
         }
     }
