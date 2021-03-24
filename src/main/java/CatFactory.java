@@ -8,9 +8,9 @@ public class CatFactory implements Runnable{
 
     @Override
     public void run() {
-        int i = 0;
-        while (i < COUNT){
-            new Cat(NUMBER +"." + (i+1));
+        int i = 1;
+        while (i <= COUNT){
+            new Cat(NUMBER +"." + i);
             i++;
         }
     }
